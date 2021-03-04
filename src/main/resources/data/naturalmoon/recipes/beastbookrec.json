@@ -1,0 +1,19 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:rotten_flesh"
+    },
+    {
+      "item": "naturalmoon:wolves_spanepowder"
+    },
+    {
+      "item": "minecraft:rotten_flesh"
+    }
+  ],
+  "result": {
+    "item": "naturalmoon:bestiary",
+    "count": 1
+  }
+}

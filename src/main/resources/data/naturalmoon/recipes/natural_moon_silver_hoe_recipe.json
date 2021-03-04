@@ -1,0 +1,27 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:silveringot"
+    },
+    "1": {
+      "item": "naturalmoon:silveringot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:natural_moon_silver_hoe",
+    "count": 1
+  }
+}

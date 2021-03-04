@@ -1,0 +1,19 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naturalmoon:wolves_spanepowder"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "naturalmoon:wolves_spanepowder"
+    }
+  ],
+  "result": {
+    "item": "naturalmoon:wolvesspanepotion",
+    "count": 1
+  }
+}

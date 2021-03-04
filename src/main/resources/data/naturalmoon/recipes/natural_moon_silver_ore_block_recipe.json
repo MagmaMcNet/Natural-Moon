@@ -1,0 +1,42 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:silveringot"
+    },
+    "1": {
+      "item": "naturalmoon:silveringot"
+    },
+    "2": {
+      "item": "naturalmoon:silveringot"
+    },
+    "3": {
+      "item": "naturalmoon:silveringot"
+    },
+    "4": {
+      "item": "naturalmoon:silveringot"
+    },
+    "5": {
+      "item": "naturalmoon:silveringot"
+    },
+    "6": {
+      "item": "naturalmoon:silveringot"
+    },
+    "7": {
+      "item": "naturalmoon:silveringot"
+    },
+    "8": {
+      "item": "naturalmoon:silveringot"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:natural_moon_silver_block",
+    "count": 1
+  }
+}

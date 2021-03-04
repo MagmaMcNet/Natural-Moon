@@ -1,0 +1,49 @@
+{
+  "_fv": 15,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "plains"
+      },
+      {
+        "value": "forest"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -13421569,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.STONE#0"
+    },
+    "portalParticles": {
+      "value": "CRIT_MAGIC"
+    },
+    "portalLuminance": 10,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Werewolf Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:NaturalMoon"
+    },
+    "texture": "werewolf_hide",
+    "portalTexture": "wolves_spane_water",
+    "enablePortal": true
+  }
+}

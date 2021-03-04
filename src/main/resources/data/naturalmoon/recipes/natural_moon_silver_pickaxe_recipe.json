@@ -1,0 +1,30 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:silveringot"
+    },
+    "1": {
+      "item": "naturalmoon:silveringot"
+    },
+    "2": {
+      "item": "naturalmoon:silveringot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:natural_moon_silver_pickaxe",
+    "count": 1
+  }
+}

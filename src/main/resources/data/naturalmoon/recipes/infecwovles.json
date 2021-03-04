@@ -1,0 +1,19 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naturalmoon:dreidinfectedwolfhide"
+    },
+    {
+      "item": "naturalmoon:wolvesspanepotion"
+    },
+    {
+      "item": "naturalmoon:dreidinfectedwolfhide"
+    }
+  ],
+  "result": {
+    "item": "naturalmoon:infectedwolvesspanepotion",
+    "count": 1
+  }
+}

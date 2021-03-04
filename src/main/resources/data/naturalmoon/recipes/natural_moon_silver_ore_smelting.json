@@ -1,0 +1,12 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "naturalmoon:natural_moon_silver_ore"
+  },
+  "result": {
+    "item": "naturalmoon:silveringot"
+  }
+}

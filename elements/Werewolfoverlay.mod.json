@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [],
+    "baseTexture": "werewolf_overlay.png",
+    "displayCondition": {
+      "name": "WerewolfoverlayDisplayOverlayIngame"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Player_NaturalMoon>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Player_NaturalMoon>",
+          "x": 141,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "more soon",
+          "color": {
+            "value": -3407821,
+            "falpha": 0.0
+          },
+          "name": "more soon",
+          "x": 87,
+          "y": 53
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:infected_werewolf_hode"
+    },
+    "1": {
+      "item": "naturalmoon:wolves_spanepowder"
+    },
+    "2": {
+      "item": "naturalmoon:infected_werewolf_hode"
+    },
+    "3": {
+      "item": "naturalmoon:wolves_spanepowder"
+    },
+    "4": {
+      "item": "naturalmoon:bloody_werewolf_hide"
+    },
+    "5": {
+      "item": "naturalmoon:wolves_spanepowder"
+    },
+    "6": {
+      "item": "naturalmoon:infected_werewolf_hode"
+    },
+    "7": {
+      "item": "naturalmoon:wolves_spanepowder"
+    },
+    "8": {
+      "item": "naturalmoon:infected_werewolf_hode"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:werewolfdim",
+    "count": 1
+  }
+}

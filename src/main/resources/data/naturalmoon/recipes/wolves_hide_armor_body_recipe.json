@@ -1,0 +1,39 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "2": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "3": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "4": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "5": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "6": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "7": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "8": {
+      "item": "naturalmoon:dried_werewolfhide"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:wolves_hide_armor_chestplate",
+    "count": 1
+  }
+}

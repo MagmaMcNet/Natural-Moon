@@ -1,0 +1,29 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "1": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "2": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "3": {
+      "item": "naturalmoon:dried_werewolfhide"
+    },
+    "5": {
+      "item": "naturalmoon:dried_werewolfhide"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:wolves_hide_armor_helmet",
+    "count": 1
+  }
+}

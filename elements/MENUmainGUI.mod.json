@@ -1,0 +1,129 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 175,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Type:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Type:",
+          "x": 132,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Player_NaturalMoon>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Player_NaturalMoon>",
+          "x": 164,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "transformed Type:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "transformed Type:",
+          "x": 132,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Transformed>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Transformed>",
+          "x": 204,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Transformed: ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Transformed: ",
+          "x": 132,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Type>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Type>",
+          "x": 228,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wolf_strenth.png",
+          "use1Xscale": false,
+          "name": "wolf_strenth.png",
+          "x": 132,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:Level>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:Level>",
+          "x": 169,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Level:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Level:",
+          "x": 132,
+          "y": 143
+        }
+      }
+    ]
+  }
+}

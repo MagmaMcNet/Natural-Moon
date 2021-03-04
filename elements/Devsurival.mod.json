@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "0",
+    "keyBindingName": "Dev Surival",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "DevsurivalOnKeyPressed"
+    }
+  }
+}

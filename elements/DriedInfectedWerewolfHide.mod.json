@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:InfectedWerewolfHode"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:Dreidinfectedwolfhide"
+    },
+    "name": "dried_infected_werewolf_hide",
+    "namespace": "mod"
+  }
+}

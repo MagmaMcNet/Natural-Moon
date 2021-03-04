@@ -1,0 +1,29 @@
+{
+  "_fv": 15,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "wolvesspanepotion",
+    "customModelName": "Normal",
+    "name": "Wolves Spane Potion",
+    "rarity": "RARE",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NaturalMoon"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatingSpeed": 32,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": true,
+    "onEaten": {
+      "name": "Wolvesspanepotiondrink"
+    }
+  }
+}

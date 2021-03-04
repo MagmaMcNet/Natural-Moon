@@ -1,0 +1,98 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 260,
+    "height": 150,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Devpageopen"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 294,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "wolves_spane.png",
+          "use1Xscale": true,
+          "name": "wolves_spane.png",
+          "x": 285,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " Wolves spane or silver",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": " Wolves spane or silver",
+          "x": 87,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " can be used to kill or",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": " can be used to kill or",
+          "x": 87,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": " or badly harm werewolves",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": " or badly harm werewolves",
+          "x": 87,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "smelt.png",
+          "use1Xscale": true,
+          "name": "smelt.png",
+          "x": 87,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "craft.png",
+          "use1Xscale": true,
+          "name": "craft.png",
+          "x": 114,
+          "y": 125
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "_fv": 15,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 181,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "dev page 2000",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "dev page 2000",
+          "x": 128,
+          "y": 33
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Werewolf",
+          "onClick": {
+            "name": "Devwerewolf"
+          },
+          "width": 65,
+          "height": 20,
+          "name": "Werewolf",
+          "x": 126,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Immune",
+          "onClick": {
+            "name": "DevImmune"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Immune",
+          "x": 126,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Normal",
+          "onClick": {
+            "name": "DevNormal"
+          },
+          "width": 55,
+          "height": 20,
+          "name": "Normal",
+          "x": 126,
+          "y": 100
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Day",
+          "onClick": {
+            "name": "Devday"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "Day",
+          "x": 260,
+          "y": 60
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Night",
+          "onClick": {
+            "name": "DevNight"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Night",
+          "x": 250,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "All commands bellow are Dev CMD",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "All commands bellow are Dev CMD",
+          "x": 132,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Max level",
+          "width": 120,
+          "height": 20,
+          "name": "max_level",
+          "x": 180,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Set a max level",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Set a max level",
+          "x": 182,
+          "y": 177
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Max level",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Max level",
+          "x": 182,
+          "y": 169
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:max_level>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:max_level>",
+          "x": 233,
+          "y": 168
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "set your level",
+          "width": 120,
+          "height": 20,
+          "name": "level",
+          "x": 180,
+          "y": 148
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Set Level",
+          "onClick": {
+            "name": "DevsetLevel"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Set Level",
+          "x": 230,
+          "y": 122
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Set Max",
+          "onClick": {
+            "name": "DevSetMaxLevel"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Set Max",
+          "x": 240,
+          "y": 102
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Reset",
+          "onClick": {
+            "name": "DevResetlevels"
+          },
+          "width": 50,
+          "height": 20,
+          "name": "Reset",
+          "x": 126,
+          "y": 186
+        }
+      }
+    ]
+  }
+}

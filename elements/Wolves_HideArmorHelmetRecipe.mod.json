@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DriedWerewolfhide"
+      },
+      {
+        "value": "CUSTOM:DriedWerewolfhide"
+      },
+      {
+        "value": "CUSTOM:DriedWerewolfhide"
+      },
+      {
+        "value": "CUSTOM:DriedWerewolfhide"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DriedWerewolfhide"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Wolves_HideArmor.helmet"
+    },
+    "name": "wolves_hide_armor_helmet_recipe",
+    "namespace": "mod"
+  }
+}

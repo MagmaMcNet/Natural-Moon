@@ -1,0 +1,12 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 500,
+  "ingredient": {
+    "item": "naturalmoon:bloody_werewolf_hide"
+  },
+  "result": {
+    "item": "naturalmoon:dried_werewolfhide"
+  }
+}

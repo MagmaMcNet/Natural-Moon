@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F7",
+    "keyBindingName": "Dev Creative",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "DevCreativeOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "naturalmoon:natural_moon_silver_block"
+    }
+  ],
+  "result": {
+    "item": "naturalmoon:deleted_mod_element",
+    "count": 9
+  }
+}

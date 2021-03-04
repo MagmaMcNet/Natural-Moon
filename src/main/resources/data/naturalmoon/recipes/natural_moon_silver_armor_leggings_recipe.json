@@ -1,0 +1,36 @@
+{
+  "group": "naturalmoon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "naturalmoon:silveringot"
+    },
+    "1": {
+      "item": "naturalmoon:silveringot"
+    },
+    "2": {
+      "item": "naturalmoon:silveringot"
+    },
+    "3": {
+      "item": "naturalmoon:silveringot"
+    },
+    "5": {
+      "item": "naturalmoon:silveringot"
+    },
+    "6": {
+      "item": "naturalmoon:silveringot"
+    },
+    "8": {
+      "item": "naturalmoon:silveringot"
+    }
+  },
+  "result": {
+    "item": "naturalmoon:natural_moon_silver_armor_leggings",
+    "count": 1
+  }
+}

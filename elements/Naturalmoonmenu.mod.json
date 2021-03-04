@@ -1,0 +1,12 @@
+{
+  "_fv": 15,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "J",
+    "keyBindingName": "Natural Moon Menu",
+    "keyBindingCategoryKey": "creative",
+    "onKeyPressed": {
+      "name": "MenuKeyPress"
+    }
+  }
+}

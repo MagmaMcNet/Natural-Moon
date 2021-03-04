@@ -1,0 +1,49 @@
+{
+  "werewolf_death": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "naturalmoon:wolf_death1",
+        "stream": false
+      },
+      {
+        "name": "naturalmoon:wolf_death2",
+        "stream": false
+      }
+    ]
+  },
+  "werewolf_hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "naturalmoon:wolf_hurt1",
+        "stream": false
+      },
+      {
+        "name": "naturalmoon:wolf_hurt2",
+        "stream": false
+      },
+      {
+        "name": "naturalmoon:wolf_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "werewolf_live": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "naturalmoon:wolf_growl1",
+        "stream": false
+      },
+      {
+        "name": "naturalmoon:wolf_growl2",
+        "stream": false
+      },
+      {
+        "name": "naturalmoon:wolf_growl3",
+        "stream": false
+      }
+    ]
+  }
+}

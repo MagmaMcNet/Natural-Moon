@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "crossbow",
+    "customModelName": "Normal",
+    "name": "Silver Cross Bow",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:NaturalMoon"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Silvercrossbowbolt"
+    },
+    "shootConstantly": false,
+    "usageCount": 300,
+    "actionSound": {
+      "value": ""
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.5,
+    "bulletDamage": 4.0,
+    "bulletKnockback": 2,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Silvercrossbowbolt"
+    },
+    "bulletModel": "ModelNaturalMoon_silver_arrow",
+    "customBulletModelTexture": "naturalmoon_silver_arrow.png",
+    "onBulletHitsPlayer": {
+      "name": "SilverCrossBowBulletHits"
+    },
+    "onBulletHitsEntity": {
+      "name": "SilverCrossBowBulletHitsPlayer"
+    },
+    "onBulletFlyingTick": {
+      "name": "SilverCrossBowWhileBulletFlyingTick"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "wolf_spane"
+      },
+      "name": "default"
+    }
+  }
+}

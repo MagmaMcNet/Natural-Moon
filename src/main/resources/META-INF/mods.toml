@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[28,)"
+
+[[mods]]
+modId="naturalmoon"
+version="0.6.1, RDXGXV"
+displayName="Natural Moon"
+credits="Created By - SMLkaiellis08"
+displayURL="https://magma.serble.net"
+logoFile="logo.png"
+authors="SMLkaiellis08, silver"
+description='''
+Release build on 02/03/2021
+'''
+
+[[dependencies.naturalmoon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

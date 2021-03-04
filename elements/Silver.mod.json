@@ -1,0 +1,59 @@
+{
+  "_fv": 15,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Silveringot"
+      },
+      {
+        "value": "CUSTOM:WolvesSpane"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverOre"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverBlock"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverPickaxe"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverAxe"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverSword"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverShovel"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverHoe"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverArmor.body"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverArmor.legs"
+      },
+      {
+        "value": "CUSTOM:NaturalMoon_SilverArmor.boots"
+      },
+      {
+        "value": "CUSTOM:SilverCrossBow"
+      },
+      {
+        "value": "CUSTOM:Silvercrossbowbolt"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "silver",
+    "namespace": "forge"
+  }
+}

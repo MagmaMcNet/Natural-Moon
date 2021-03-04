@@ -1,0 +1,8 @@
+{
+  "parent": "naturalmoon:custom/wolfspane",
+  "textures": {
+    "all": "naturalmoon:blocks/wolf_spane",
+    "particle": "naturalmoon:blocks/wolf_spane",
+    "1": "naturalmoon:blocks/wolf_spane"
+  }
+}
