@@ -9,7 +9,7 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:NaturalMoon_SilverOre"
+      "value": "CUSTOM:Silverore"
     },
     "smeltingReturnStack": {
       "value": "CUSTOM:Silveringot"

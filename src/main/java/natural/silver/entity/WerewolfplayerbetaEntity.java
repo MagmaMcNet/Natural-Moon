@@ -43,7 +43,7 @@ public class WerewolfplayerbetaEntity extends NaturalmoonModElements.ModElement 
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
+		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.7f, 0.8f)).build("werewolfplayer_beta")
 						.setRegistryName("werewolfplayer_beta");
 		elements.entities.add(() -> entity);
@@ -70,6 +70,7 @@ public class WerewolfplayerbetaEntity extends NaturalmoonModElements.ModElement 
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+			enablePersistence();
 		}
 
 		@Override
@@ -88,6 +89,11 @@ public class WerewolfplayerbetaEntity extends NaturalmoonModElements.ModElement 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
 		}
 
 		@Override

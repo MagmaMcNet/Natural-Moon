@@ -425,15 +425,6 @@
       "registry_name": "silver"
     },
     {
-      "name": "NaturalMoon_SilverOre",
-      "type": "block",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "natural_moon_silver_ore"
-    },
-    {
       "name": "NaturalMoon_SilverBlock",
       "type": "block",
       "sortid": 1,
@@ -1555,6 +1546,60 @@
           }
         ]
       }
+    },
+    {
+      "name": "Werewolfplayeromega2",
+      "type": "mob",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "werewolfplayeromega_2"
+    },
+    {
+      "name": "Werewolfplayer3",
+      "type": "mob",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "werewolfplayer_3"
+    },
+    {
+      "name": "Werewolfplayer4",
+      "type": "mob",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "werewolfplayer_4"
+    },
+    {
+      "name": "Werewolfplayer5",
+      "type": "mob",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "werewolfplayer_5"
+    },
+    {
+      "name": "Werewolfplayerneutral1",
+      "type": "mob",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "werewolfplayerneutral_1"
+    },
+    {
+      "name": "Silverore",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "silverore"
     }
   ],
   "variable_elements": [
@@ -1659,6 +1704,7 @@
       "item.naturalmoon.werewolfplayer_alpha_spawn_egg": "Werewolf Spawn Egg",
       "item.naturalmoon.wolves_hide_armor_helmet": "Wolf Hide Helmet",
       "item.minecraft.splash_potion.effect.strengthof_wolfs": "Splash Strength of The Wolves",
+      "item.naturalmoon.werewolfplayer_5_spawn_egg": "Werewolf Spawn Egg",
       "subtitles.werewolf_death": "",
       "item.naturalmoon.wolves_hide_armor_chestplate": "Wolf Hide Chestplate",
       "item.naturalmoon.werewolfplayer_beta_spawn_egg": "Werewolf Spawn Egg",
@@ -1675,10 +1721,17 @@
       "item.naturalmoon.natural_moon_silver_armor_leggings": "Silver Leggings",
       "key.mcreator.natural_moonmenumain": "Natural Moon transform",
       "item.naturalmoon.silvercrossbowbolt": "Silver Crossbow bolt",
+      "item.naturalmoon.werewolfplayeromega_2_spawn_egg": "Werewolf Spawn Egg",
+      "item.naturalmoon.werewolfplayer_4_spawn_egg": "Werewolf Spawn Egg",
+      "item.naturalmoon.werewolfplayerneutral_1_spawn_egg": "Werewolf Spawn Egg",
       "subtitles.werewolf_live": "",
       "entity.naturalmoon.werewolfplayer_omega": "Werewolf",
       "item.naturalmoon.natural_moon_silver_hoe": "Silver Hoe",
+      "entity.naturalmoon.werewolfplayer_4": "Werewolf",
+      "entity.naturalmoon.werewolfplayer_5": "Werewolf",
+      "item.naturalmoon.werewolfplayer_3_spawn_egg": "Werewolf Spawn Egg",
       "item.naturalmoon.natural_moon_silver_armor_chestplate": "Silver Chestplate",
+      "entity.naturalmoon.werewolfplayer_3": "Werewolf",
       "effect.strengthof_wolfs": "Strength Of The Wolves",
       "item.naturalmoon.bloody_werewolf_hide": "Bloody Werewolf Hide",
       "itemGroup.tabnatural_moon": "Natural Moon",
@@ -1695,6 +1748,8 @@
       "item.naturalmoon.natural_moon_silver_armor_helmet": "Silver Helmet",
       "entity.naturalmoon.werewolf": "Werewolf",
       "item.naturalmoon.werewolfplayer_omega_spawn_egg": "Werewolf Spawn Egg",
+      "entity.naturalmoon.werewolfplayeromega_2": "Werewolf",
+      "entity.naturalmoon.werewolfplayerneutral_1": "Werewolf",
       "item.naturalmoon.natural_moon_silver_armor_boots": "Silver Boots",
       "entity.naturalmoon.werewolfplayer_alpha": "Werewolf",
       "item.naturalmoon.wolvesspanepotion": "Wolves Spane Potion",
@@ -1706,8 +1761,8 @@
   "workspaceSettings": {
     "modid": "naturalmoon",
     "modName": "Natural Moon",
-    "version": "0.6.1, RDXGXV",
-    "description": "Release build on 02/03/2021",
+    "version": "0.6.2, RDXGXV",
+    "description": "Release build on 05/03/2021",
     "author": "SMLkaiellis08, silver",
     "websiteURL": "https://magma.serble.net",
     "license": "All Rights Reserved",
