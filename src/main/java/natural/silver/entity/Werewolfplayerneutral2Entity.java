@@ -36,10 +36,10 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import natural.silver.NaturalmoonModElements;
 
 @NaturalmoonModElements.ModElement.Tag
-public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement {
+public class Werewolfplayerneutral2Entity extends NaturalmoonModElements.ModElement {
 	public static EntityType entity = null;
-	public WerewolfplayeromegaEntity(NaturalmoonModElements instance) {
-		super(instance, 103);
+	public Werewolfplayerneutral2Entity(NaturalmoonModElements instance) {
+		super(instance, 117);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -47,7 +47,7 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.7f, 0.8f))
-						.build("werewolfplayer_omega").setRegistryName("werewolfplayer_omega");
+						.build("werewolfplayerneutral_2").setRegistryName("werewolfplayerneutral_2");
 		elements.entities.add(() -> entity);
 	}
 
@@ -58,7 +58,7 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 			return new MobRenderer(renderManager, new Modelmodel_werewolf_4(), 0.9f) {
 				@Override
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("naturalmoon:textures/werewolf_omega.png");
+					return new ResourceLocation("naturalmoon:textures/werewolf_texture_neutral.png");
 				}
 			};
 		});

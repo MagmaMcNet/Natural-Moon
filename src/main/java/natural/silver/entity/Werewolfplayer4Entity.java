@@ -39,7 +39,7 @@ import natural.silver.NaturalmoonModElements;
 public class Werewolfplayer4Entity extends NaturalmoonModElements.ModElement {
 	public static EntityType entity = null;
 	public Werewolfplayer4Entity(NaturalmoonModElements instance) {
-		super(instance, 109);
+		super(instance, 110);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
@@ -47,7 +47,7 @@ public class Werewolfplayer4Entity extends NaturalmoonModElements.ModElement {
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.7f, 0.8f))
-						.build("werewolfplayer_4").setRegistryName("werewolfplayer_4");
+						.build("werewolfplayer_omega_4").setRegistryName("werewolfplayer_omega_4");
 		elements.entities.add(() -> entity);
 	}
 

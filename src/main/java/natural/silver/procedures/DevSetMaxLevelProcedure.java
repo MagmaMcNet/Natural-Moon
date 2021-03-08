@@ -12,7 +12,7 @@ import java.util.HashMap;
 @NaturalmoonModElements.ModElement.Tag
 public class DevSetMaxLevelProcedure extends NaturalmoonModElements.ModElement {
 	public DevSetMaxLevelProcedure(NaturalmoonModElements instance) {
-		super(instance, 105);
+		super(instance, 106);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

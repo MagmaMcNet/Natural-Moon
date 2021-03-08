@@ -39,7 +39,7 @@ import natural.silver.NaturalmoonModElements;
 public class Werewolfplayerneutral1Entity extends NaturalmoonModElements.ModElement {
 	public static EntityType entity = null;
 	public Werewolfplayerneutral1Entity(NaturalmoonModElements instance) {
-		super(instance, 111);
+		super(instance, 112);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

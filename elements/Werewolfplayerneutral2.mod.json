@@ -2,10 +2,10 @@
   "_fv": 15,
   "_type": "mob",
   "definition": {
-    "mobName": "Werewolf Player model level 3",
+    "mobName": "Werewolf Player model level 7",
     "mobLabel": "",
     "mobModelName": "Modelmodel_werewolf_4",
-    "mobModelTexture": "werewolf_omega.png",
+    "mobModelTexture": "werewolf_texture_neutral.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.7,
     "modelHeight": 0.8,

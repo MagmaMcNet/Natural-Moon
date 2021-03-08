@@ -17,7 +17,7 @@ import java.util.HashMap;
 @NaturalmoonModElements.ModElement.Tag
 public class PlayertickProcedure extends NaturalmoonModElements.ModElement {
 	public PlayertickProcedure(NaturalmoonModElements instance) {
-		super(instance, 101);
+		super(instance, 102);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

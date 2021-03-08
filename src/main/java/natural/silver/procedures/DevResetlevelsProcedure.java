@@ -11,7 +11,7 @@ import java.util.Map;
 @NaturalmoonModElements.ModElement.Tag
 public class DevResetlevelsProcedure extends NaturalmoonModElements.ModElement {
 	public DevResetlevelsProcedure(NaturalmoonModElements instance) {
-		super(instance, 106);
+		super(instance, 107);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

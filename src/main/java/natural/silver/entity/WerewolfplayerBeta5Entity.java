@@ -16,8 +16,6 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
-import net.minecraft.entity.projectile.PotionEntity;
-import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -36,18 +34,18 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import natural.silver.NaturalmoonModElements;
 
 @NaturalmoonModElements.ModElement.Tag
-public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement {
+public class WerewolfplayerBeta5Entity extends NaturalmoonModElements.ModElement {
 	public static EntityType entity = null;
-	public WerewolfplayeromegaEntity(NaturalmoonModElements instance) {
-		super(instance, 103);
+	public WerewolfplayerBeta5Entity(NaturalmoonModElements instance) {
+		super(instance, 116);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.7f, 0.8f))
-						.build("werewolfplayer_omega").setRegistryName("werewolfplayer_omega");
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.7f, 0.8f)).build("werewolfplayer_beta_5")
+						.setRegistryName("werewolfplayer_beta_5");
 		elements.entities.add(() -> entity);
 	}
 
@@ -58,7 +56,7 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 			return new MobRenderer(renderManager, new Modelmodel_werewolf_4(), 0.9f) {
 				@Override
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("naturalmoon:textures/werewolf_omega.png");
+					return new ResourceLocation("naturalmoon:textures/werewolf_beta.png");
 				}
 			};
 		});
@@ -115,19 +113,7 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
-			if (source.getImmediateSource() instanceof ArrowEntity)
-				return false;
 			if (source.getImmediateSource() instanceof PlayerEntity)
-				return false;
-			if (source.getImmediateSource() instanceof PotionEntity)
-				return false;
-			if (source == DamageSource.FALL)
-				return false;
-			if (source == DamageSource.CACTUS)
-				return false;
-			if (source == DamageSource.DROWN)
-				return false;
-			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}
@@ -138,7 +124,7 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 			if (this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.4);
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
-				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(8);
+				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(10);
 			if (this.getAttribute(SharedMonsterAttributes.ARMOR) != null)
 				this.getAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) == null)

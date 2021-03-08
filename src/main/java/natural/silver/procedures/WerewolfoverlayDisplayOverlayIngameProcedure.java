@@ -30,15 +30,6 @@ public class WerewolfoverlayDisplayOverlayIngameProcedure extends NaturalmoonMod
 		if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 				.orElse(new NaturalmoonModVariables.PlayerVariables())).transformed_werewolf) == (true))) {
 			return (true);
-		} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturalmoonModVariables.PlayerVariables())).Hunters_Rage) == (true))) {
-			return (false);
-		} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturalmoonModVariables.PlayerVariables())).Hunters_Rage) == (false))) {
-			return (false);
-		} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-				.orElse(new NaturalmoonModVariables.PlayerVariables())).transformed_werewolf) == (false))) {
-			return (false);
 		}
 		return (true);
 	}
