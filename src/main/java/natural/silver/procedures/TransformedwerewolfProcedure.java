@@ -74,13 +74,103 @@ public class TransformedwerewolfProcedure extends NaturalmoonModElements.ModElem
 					world.getWorld().getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_omega_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_omega_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_omega_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_omega_5]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayerneutral_1]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayerneutral_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayerneutral_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayerneutral_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
 							"kill @e[type=naturalmoon:werewolfplayer_beta]");
 				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"kill @e[type=naturalmoon:werewolfplayer_alpha]");
+							"kill @e[type=naturalmoon:werewolfplayer_beta_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_beta_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_beta_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_beta_5]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_alpha_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_alpha_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_alpha_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"kill @e[type=naturalmoon:werewolfplayer_alpha_5]");
 				}
 				{
 					boolean _setval = (boolean) (false);
@@ -98,7 +188,7 @@ public class TransformedwerewolfProcedure extends NaturalmoonModElements.ModElem
 				}
 			}
 			if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) < 5)) {
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 1)) {
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager()
 							.handleCommand(
@@ -137,6 +227,60 @@ public class TransformedwerewolfProcedure extends NaturalmoonModElements.ModElem
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
 							"/data modify entity @e[type=naturalmoon:werewolfplayer_omega,limit=1] from merge from entity @p");
 				}
+				{
+					String _setval = (String) "Omega";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 2)) {
+				{
+					String _setval = (String) "Omega";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add omega");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join omega @e[type=werewolfplayer_omega_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join omega @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify omega collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_omega_2,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_omega_2,limit=1] from merge from entity @p");
+				}
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
@@ -144,7 +288,385 @@ public class TransformedwerewolfProcedure extends NaturalmoonModElements.ModElem
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
 			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) < 10)) {
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 3)) {
+				{
+					String _setval = (String) "Omega";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add omega");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join omega @e[type=werewolfplayer_omega_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join omega @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify omega collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_omega_3,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_omega_3,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 4)) {
+				{
+					String _setval = (String) "Omega";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add omega");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join omega @e[type=werewolfplayer_omega_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join omega @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify omega collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_omega_4,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_omega_4,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 5)) {
+				{
+					String _setval = (String) "Omega";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add omega");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join omega @e[type=werewolfplayer_omega_5]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join omega @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify omega collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_omega_5,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_omega,limit=5] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 6)) {
+				{
+					String _setval = (String) "Neutral";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add neutral");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join neutral @e[type=werewolfplayerneutral_1]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join neutral @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify neutral collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayerneutral_1,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayerneutral_1,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 7)) {
+				{
+					String _setval = (String) "Neutral";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add neutral");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join neutral @e[type=werewolfplayerneutral_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join neutral @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify neutral collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayerneutral_2,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayerneutral_2,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 8)) {
+				{
+					String _setval = (String) "Neutral";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add neutral");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join neutral @e[type=werewolfplayerneutral_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join neutral @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify neutral collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayerneutral_3,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayerneutral_3,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 9)) {
+				{
+					String _setval = (String) "Neutral";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add neutral");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join neutral @e[type=werewolfplayerneutral_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join neutral @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify neutral collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayerneutral_4,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayerneutral_4,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 0, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.MINING_FATIGUE, (int) 60, (int) 0, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 10)) {
+				{
+					String _setval = (String) "Beta";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager()
 							.handleCommand(new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4,
@@ -192,7 +714,234 @@ public class TransformedwerewolfProcedure extends NaturalmoonModElements.ModElem
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
 			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) < 20)) {
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 11)) {
+				{
+					String _setval = (String) "Beta";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4,
+									"", new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(), "team add beta");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join beta @e[type=werewolfplayer_beta_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join beta @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify beta collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_beta_2,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_beta_2,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 12)) {
+				{
+					String _setval = (String) "Beta";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4,
+									"", new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(), "team add beta");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join beta @e[type=werewolfplayer_beta_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join beta @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify beta collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_beta_3,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_beta_3,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 13)) {
+				{
+					String _setval = (String) "Beta";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4,
+									"", new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(), "team add beta");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join beta @e[type=werewolfplayer_beta_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join beta @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify beta collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_beta_4,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_beta_4,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 14)) {
+				{
+					String _setval = (String) "Beta";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4,
+									"", new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(), "team add beta");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join beta @e[type=werewolfplayer_beta_5]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join beta @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify beta collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_beta_5,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_beta_5,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 15)) {
+				{
+					String _setval = (String) "Alpha";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager()
 							.handleCommand(
@@ -244,59 +993,300 @@ public class TransformedwerewolfProcedure extends NaturalmoonModElements.ModElem
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
 			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
-					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) < 100)) {
-				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
-					world.getWorld().getServer().getCommandManager()
-							.handleCommand(
-									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
-											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-									"team add alter");
-				}
-				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
-					world.getWorld().getServer().getCommandManager().handleCommand(
-							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
-									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"team join alter @e[type=werewolfplayer_alpha]");
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 16)) {
+				{
+					String _setval = (String) "Alpha";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
 				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager()
 							.handleCommand(
 									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-									"team join alter @p");
+									"team add alpha");
 				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"team modify alter collisionRule never");
+							"team join alpha @e[type=werewolfplayer_alpha_2]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join alpha @p");
 				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"tp @e[type=naturalmoon:werewolfplayer_alpha,limit=1] @p");
+							"team modify alpha collisionRule never");
 				}
 				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
 					world.getWorld().getServer().getCommandManager().handleCommand(
 							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
 									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
-							"/data modify entity @e[type=naturalmoon:werewolfplayer_alpha,limit=1] from merge from entity @p");
+							"tp @e[type=naturalmoon:werewolfplayer_alpha_2,limit=1] @p");
 				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_alpha_2,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.RESISTANCE, (int) 60, (int) 1, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 17)) {
+				{
+					String _setval = (String) "Alpha";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add alpha");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join alpha @e[type=werewolfplayer_alpha_3]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join alpha @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify alpha collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_alpha_3,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_alpha_3,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
 					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.ABSORPTION, (int) 60, (int) 2, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 2, (false), (false)));
 				if (entity instanceof LivingEntity)
-					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 2, (false), (false)));
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 18)) {
+				{
+					String _setval = (String) "Alpha";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add alpha");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join alpha @e[type=werewolfplayer_alpha_4]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join alpha @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify alpha collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_alpha_4,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_alpha_4,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 19)) {
+				{
+					String _setval = (String) "Alpha";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add alpha");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join alpha @e[type=werewolfplayer_alpha_5]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join alpha @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify alpha collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_alpha_5,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_alpha_5,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
+			} else if ((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+					.orElse(new NaturalmoonModVariables.PlayerVariables())).Level) == 20)) {
+				{
+					String _setval = (String) "Alpha";
+					entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+						capability.Type = _setval;
+						capability.syncPlayerVariables(entity);
+					});
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team add alpha");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team join alpha @e[type=werewolfplayer_alpha_6]");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager()
+							.handleCommand(
+									new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+											new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+									"team join alpha @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"team modify alpha collisionRule never");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"tp @e[type=naturalmoon:werewolfplayer_alpha_6,limit=1] @p");
+				}
+				if (!world.getWorld().isRemote && world.getWorld().getServer() != null) {
+					world.getWorld().getServer().getCommandManager().handleCommand(
+							new CommandSource(ICommandSource.field_213139_a_, new Vec3d(x, y, z), Vec2f.ZERO, (ServerWorld) world, 4, "",
+									new StringTextComponent(""), world.getWorld().getServer(), null).withFeedbackDisabled(),
+							"/data modify entity @e[type=naturalmoon:werewolfplayer_alpha_6,limit=1] from merge from entity @p");
+				}
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INVISIBILITY, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.JUMP_BOOST, (int) 60, (int) 2, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 60, (int) 1, (false), (false)));
+				if (entity instanceof LivingEntity)
+					((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.NIGHT_VISION, (int) 60, (int) 2, (false), (false)));
 			}
 		}
 		if (((((entity.getCapability(NaturalmoonModVariables.PLAYER_VARIABLES_CAPABILITY, null)

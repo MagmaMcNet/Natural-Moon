@@ -14,7 +14,7 @@ import java.util.Map;
 @NaturalmoonModElements.ModElement.Tag
 public class WolvesHideArmorProcedure extends NaturalmoonModElements.ModElement {
 	public WolvesHideArmorProcedure(NaturalmoonModElements instance) {
-		super(instance, 97);
+		super(instance, 98);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

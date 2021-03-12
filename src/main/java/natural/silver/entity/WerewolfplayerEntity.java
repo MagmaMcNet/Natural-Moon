@@ -16,6 +16,8 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
+import net.minecraft.entity.projectile.PotionEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -37,15 +39,15 @@ import natural.silver.NaturalmoonModElements;
 public class WerewolfplayerEntity extends NaturalmoonModElements.ModElement {
 	public static EntityType entity = null;
 	public WerewolfplayerEntity(NaturalmoonModElements instance) {
-		super(instance, 100);
+		super(instance, 101);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.6f, 0.8f)).build("werewolfplayer_alpha")
-						.setRegistryName("werewolfplayer_alpha");
+		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 0.8f))
+						.build("werewolfplayer_alpha").setRegistryName("werewolfplayer_alpha");
 		elements.entities.add(() -> entity);
 	}
 
@@ -70,6 +72,7 @@ public class WerewolfplayerEntity extends NaturalmoonModElements.ModElement {
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+			enablePersistence();
 		}
 
 		@Override
@@ -91,6 +94,11 @@ public class WerewolfplayerEntity extends NaturalmoonModElements.ModElement {
 		}
 
 		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
+		}
+
+		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("naturalmoon:werewolf_live"));
 		}
@@ -107,7 +115,19 @@ public class WerewolfplayerEntity extends NaturalmoonModElements.ModElement {
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source.getImmediateSource() instanceof ArrowEntity)
+				return false;
 			if (source.getImmediateSource() instanceof PlayerEntity)
+				return false;
+			if (source.getImmediateSource() instanceof PotionEntity)
+				return false;
+			if (source == DamageSource.FALL)
+				return false;
+			if (source == DamageSource.CACTUS)
+				return false;
+			if (source == DamageSource.DROWN)
+				return false;
+			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}

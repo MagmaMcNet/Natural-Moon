@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:NaturalMoon_SilverIngot"
+      "value": "CUSTOM:Silveringot"
     },
     "name": "natural_moon_silver_block_ore_recipe",
     "namespace": "mod"

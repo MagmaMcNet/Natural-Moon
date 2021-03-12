@@ -3,13 +3,13 @@
   "_type": "block",
   "definition": {
     "texture": "silver_ore",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
-    "textureRight": "",
-    "textureBack": "",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "textureTop": "silver_ore",
+    "textureLeft": "silver_ore",
+    "textureFront": "silver_ore",
+    "textureRight": "silver_ore",
+    "textureBack": "silver_ore",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -28,8 +28,8 @@
     "Mz": 1.0,
     "name": "Silver Ore",
     "specialInfo": [],
-    "hardness": 3.0,
-    "resistance": 5.0,
+    "hardness": 1.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -102,9 +102,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 11,
-    "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "frequencyPerChunks": 5,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 80
   }
 }

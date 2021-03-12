@@ -27,7 +27,7 @@ public class StrengthofWolfsPotion extends NaturalmoonModElements.ModElement {
 	@ObjectHolder("naturalmoon:strengthof_wolfs")
 	public static final Potion potionType = null;
 	public StrengthofWolfsPotion(NaturalmoonModElements instance) {
-		super(instance, 96);
+		super(instance, 97);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 

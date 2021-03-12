@@ -3,14 +3,14 @@ loaderVersion="[28,)"
 
 [[mods]]
 modId="naturalmoon"
-version="0.6.1, RDXGXV"
+version="0.7.0, RELKEE"
 displayName="Natural Moon"
 credits="Created By - SMLkaiellis08"
 displayURL="https://magma.serble.net"
 logoFile="logo.png"
 authors="SMLkaiellis08, silver"
 description='''
-Release build on 02/03/2021
+Release build on 08/03/2021
 '''
 
 [[dependencies.naturalmoon]]

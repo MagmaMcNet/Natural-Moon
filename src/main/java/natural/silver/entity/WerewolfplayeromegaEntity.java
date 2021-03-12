@@ -5,21 +5,19 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.common.DungeonHooks;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.gen.Heightmap;
-import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.DamageSource;
 import net.minecraft.network.IPacket;
+import net.minecraft.entity.projectile.PotionEntity;
+import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
@@ -27,7 +25,6 @@ import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EntitySpawnPlacementRegistry;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
@@ -42,26 +39,16 @@ import natural.silver.NaturalmoonModElements;
 public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement {
 	public static EntityType entity = null;
 	public WerewolfplayeromegaEntity(NaturalmoonModElements instance) {
-		super(instance, 102);
+		super(instance, 103);
 		FMLJavaModLoadingContext.get().getModEventBus().register(this);
 	}
 
 	@Override
 	public void initElements() {
-		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).size(0.7f, 0.8f)).build("werewolfplayer_omega")
-						.setRegistryName("werewolfplayer_omega");
+		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE).setShouldReceiveVelocityUpdates(true)
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.7f, 0.8f))
+						.build("werewolfplayer_omega").setRegistryName("werewolfplayer_omega");
 		elements.entities.add(() -> entity);
-	}
-
-	@Override
-	public void init(FMLCommonSetupEvent event) {
-		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
-			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 1, 1, 2));
-		}
-		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				MonsterEntity::func_223315_a);
-		DungeonHooks.addDungeonMob(entity, 180);
 	}
 
 	@SubscribeEvent
@@ -85,6 +72,7 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 			super(type, world);
 			experienceValue = 0;
 			setNoAI(false);
+			enablePersistence();
 		}
 
 		@Override
@@ -106,6 +94,11 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 		}
 
 		@Override
+		public boolean canDespawn(double distanceToClosestPlayer) {
+			return false;
+		}
+
+		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("naturalmoon:werewolf_live"));
 		}
@@ -122,7 +115,19 @@ public class WerewolfplayeromegaEntity extends NaturalmoonModElements.ModElement
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source.getImmediateSource() instanceof ArrowEntity)
+				return false;
 			if (source.getImmediateSource() instanceof PlayerEntity)
+				return false;
+			if (source.getImmediateSource() instanceof PotionEntity)
+				return false;
+			if (source == DamageSource.FALL)
+				return false;
+			if (source == DamageSource.CACTUS)
+				return false;
+			if (source == DamageSource.DROWN)
+				return false;
+			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}

@@ -19,7 +19,7 @@ import java.util.Map;
 @NaturalmoonModElements.ModElement.Tag
 public class WerewolfmodelProcedure extends NaturalmoonModElements.ModElement {
 	public WerewolfmodelProcedure(NaturalmoonModElements instance) {
-		super(instance, 99);
+		super(instance, 100);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
